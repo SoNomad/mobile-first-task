@@ -20,30 +20,38 @@
         <section>
           <div class="register-form-container">
             <h1>Войти</h1>
-            <h3>Введите свои данные ниже</h3>
+            <div class="subtitle">Введите свои данные ниже</div>
           </div>
 
           <div class="tip">
-            <img src="images/ic_info.png" alt="" />
+            
+            <div class="icon">
+              <img src="images/ic_info.png" alt="" />
+            </div>
             <p>
               Используй <b>email :</b> demo@minimals.ru /
               <b>пароль :</b> demo1234
             </p>
           </div>
+          
           <div class="form-fields">
             <div class="form-input">
               <input type="text" placeholder="E-mail" />
+              <div class="input-title">Email</div>
             </div>
             <div class="form-input">
               <input type="text" placeholder="Пароль" />
             </div>
           </div>
-          <div class="forget-pass">
-            <input type="checkbox" name="check" id="checkbox" /><label
-              for="checkbox"
-              >Запомнить пароль</label
-            >
+          
+          <div class="pass-options">
+            <div class="remember-pass">
+              <input type="checkbox" name="check" id="checkbox" />
+              <label for="checkbox">Запомнить пароль</label>
+            </div>
+            <h4 class="restore-pass"><span>Забыли пароль?</span></h4>
           </div>
+          <div class="btn">Войти</div>
         </section>
       </main>
     </div>
