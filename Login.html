@@ -3,17 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="sign.css" />
+    <link rel="stylesheet" href="styles/login.css" />
     <title>Форма регистрации</title>
   </head>
   <body>
     <div class="page">
       <header>
-        <div class="logo">
-          <img src="images/logo.png" alt="" />
-          <h2>FullStats</h2>
-        </div>
-        <h5>Нет учетной записи? <span>Зарегистрироваться</span></h5>
+        <a href="Home.html">
+          <div class="logo">
+            <img src="styles/images/logo.png" />
+            <h2>FullStats</h2>
+          </div>
+        </a>
+        <h5>
+          Нет учетной записи?
+          <a href="register-page.html">Зарегистрироваться</a>
+        </h5>
       </header>
 
       <main>
@@ -24,34 +29,35 @@
           </div>
 
           <div class="tip">
-            
             <div class="icon">
-              <img src="images/ic_info.png" alt="" />
+              <img src="styles/images/ic_info.png" alt="" />
             </div>
             <p>
               Используй <b>email :</b> demo@minimals.ru /
               <b>пароль :</b> demo1234
             </p>
           </div>
-          
+
           <div class="form-fields">
             <div class="form-input">
-              <input type="text" placeholder="E-mail" />
+              <input type="email" placeholder="E-mail" />
               <div class="input-title">Email</div>
             </div>
             <div class="form-input">
-              <input type="text" placeholder="Пароль" />
+              <input type="password" placeholder="Пароль" />
             </div>
           </div>
-          
+
           <div class="pass-options">
             <div class="remember-pass">
               <input type="checkbox" name="check" id="checkbox" />
               <label for="checkbox">Запомнить пароль</label>
             </div>
-            <h4 class="restore-pass"><span>Забыли пароль?</span></h4>
+            <h4 class="restore-pass">
+              <a href="pass-restore-page.html">Забыли пароль?</a>
+            </h4>
           </div>
-          <div class="btn">Войти</div>
+          <a href="Home-authorised.html"><div class="btn">Войти</div></a>
         </section>
       </main>
     </div>
